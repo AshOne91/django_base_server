@@ -37,6 +37,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',
+    'drf_yasg',
+    'test_app',       # Account만 필요할 때!
+    # 'game_app',     # 필요시 교체
 ]
 
 MIDDLEWARE = [

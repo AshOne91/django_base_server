@@ -1,7 +1,7 @@
 # template/gamebase/gamebase_template_context.py
 
 from threading import Lock
-from template.gamebase.template_type import TemplateType
+from template.base.template_type import TemplateType
 
 class TemplateContext:
     _templates = {}
